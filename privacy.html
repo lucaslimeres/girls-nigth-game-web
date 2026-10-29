@@ -123,7 +123,7 @@
     <header>
       <span class="logo-icon">🌸</span>
       <h1>Política de Privacidade</h1>
-      <div class="updated">Girl's Night · válida a partir de 22 de setembro de 2026</div>
+      <div class="updated">Girl's Night · válida a partir de 29 de outubro de 2026</div>
     </header>
 
     <div class="card">
@@ -145,29 +145,67 @@
       <section>
         <h2>2. Resumo</h2>
         <p>
-          <strong>O Girl's Night não coleta, armazena, processa ou compartilha nenhum
-          dado pessoal dos jogadores.</strong> Não há cadastro, login, conta de usuário,
-          coleta de dados de uso, rastreamento de comportamento, publicidade
-          personalizada ou SDKs de analytics de terceiros embutidos no jogo. Todo o
-          conteúdo (as cartas, o áudio e as animações) roda localmente no seu
-          dispositivo ou navegador.
+          <strong>O Girl's Night não coleta, armazena nem processa nenhum dado
+          pessoal diretamente</strong> — não há cadastro, login, conta de usuário
+          ou servidor próprio. Isso vale integralmente para a <strong>versão web</strong>
+          (jogada no navegador).
+        </p>
+        <p>
+          O <strong>aplicativo móvel</strong> (iOS/Android) tem uma diferença importante:
+          ele exibe anúncios e oferece uma compra opcional para removê-los, usando os
+          serviços de terceiros <strong>Google AdMob</strong> e <strong>RevenueCat</strong>.
+          Esses serviços processam alguns identificadores técnicos do aparelho — não
+          coletados por nós, mas por eles, agindo como operadores independentes. Os
+          detalhes estão no item 4.
         </p>
       </section>
 
       <section>
         <h2>3. Dados que NÃO coletamos</h2>
         <ul>
-          <li>Nome, e-mail, telefone ou qualquer identificador pessoal;</li>
+          <li>Nome, e-mail, telefone ou qualquer identificador pessoal diretamente por nós;</li>
           <li>Localização geográfica;</li>
           <li>Contatos, fotos, arquivos ou outros dados do dispositivo;</li>
-          <li>Histórico de uso, progresso de jogo ou estatísticas enviadas a um servidor;</li>
-          <li>Identificadores de publicidade (IDFA/AAID) ou dados para anúncios direcionados.</li>
+          <li>Histórico de uso, progresso de jogo ou estatísticas enviadas a um servidor nosso;</li>
+          <li>Anúncios personalizados com base no seu comportamento — o app exibe apenas anúncios não personalizados (ver item 4).</li>
         </ul>
-        <p>O jogo não possui servidor de back-end: não há nenhuma conta nossa para onde os dados dos jogadores possam ser enviados.</p>
+        <p>O jogo não possui servidor de back-end próprio: não há nenhuma conta nossa para onde os dados dos jogadores possam ser enviados. Os únicos destinatários de dados técnicos são os serviços de terceiros descritos no item 4, usados apenas no aplicativo móvel.</p>
       </section>
 
       <section>
-        <h2>4. Permissões do aplicativo móvel</h2>
+        <h2>4. SDKs de terceiros no aplicativo móvel</h2>
+        <p>
+          O aplicativo móvel usa dois serviços de terceiros para funcionar — a versão
+          web não usa nenhum dos dois:
+        </p>
+        <ul>
+          <li>
+            <strong>Google AdMob</strong> (anúncios): exibe os anúncios intersticiais
+            entre as cartas. Configuramos o AdMob para veicular apenas
+            <strong> anúncios não personalizados</strong> — ou seja, não usamos seu
+            histórico de navegação ou comportamento para escolher o anúncio. Ainda
+            assim, o SDK do Google processa identificadores técnicos do aparelho
+            (como o identificador de publicidade do Android/App Set ID) para fins de
+            veiculação do anúncio, medição e prevenção de fraude. Veja a
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de Privacidade do Google</a>.
+          </li>
+          <li>
+            <strong>RevenueCat</strong> (compras): processa a compra opcional
+            "Remover Anúncios". Para isso, ele recebe um identificador anônimo de
+            usuário gerado pelo app, informações da transação (fornecidas pela Apple
+            App Store / Google Play) e dados básicos do dispositivo, usados para
+            validar a compra e permitir restaurá-la depois. Veja a
+            <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener noreferrer">Política de Privacidade da RevenueCat</a>.
+          </li>
+        </ul>
+        <p>
+          Nenhum desses dados passa pelos nossos servidores — eles são processados
+          diretamente entre o seu dispositivo e esses serviços.
+        </p>
+      </section>
+
+      <section>
+        <h2>5. Permissões do aplicativo móvel</h2>
         <p>
           O aplicativo pode solicitar as seguintes permissões do sistema operacional,
           exigidas pelas bibliotecas de áudio e vibração usadas para tocar os efeitos
@@ -190,7 +228,7 @@
       </section>
 
       <section>
-        <h2>5. Versão web — fontes e cache</h2>
+        <h2>6. Versão web — fontes e cache</h2>
         <p>
           A versão jogável no navegador carrega as fontes <em>Playfair Display</em> e
           <em>Lato</em> a partir do CDN do Google Fonts. Esse carregamento pode expor
@@ -203,7 +241,7 @@
       </section>
 
       <section>
-        <h2>6. Conteúdo adulto e classificação etária</h2>
+        <h2>7. Conteúdo adulto e classificação etária</h2>
         <p>
           O Girl's Night é um jogo de festa para adultos, com perguntas, desafios e
           brindes de temática sexual e consumo de bebidas alcoólicas, voltado a maiores
@@ -214,26 +252,30 @@
       </section>
 
       <section>
-        <h2>7. Compartilhamento com terceiros</h2>
+        <h2>8. Compartilhamento com terceiros</h2>
         <p>
-          Não vendemos, alugamos ou compartilhamos dados pessoais com terceiros, pela
-          simples razão de que não coletamos nenhum dado pessoal. A única interação
-          com um serviço externo é o carregamento de fontes do Google Fonts, descrito
-          no item 5.
+          Não vendemos nem compartilhamos dados pessoais para fins de marketing. No
+          aplicativo móvel, identificadores técnicos (não pessoais) são processados
+          pelo Google AdMob e pela RevenueCat, conforme detalhado no item 4 — essa é
+          a única forma de "compartilhamento" que existe, e é estritamente necessária
+          para exibir anúncios e processar a compra de remoção de anúncios. Na versão
+          web, a única interação com um serviço externo é o carregamento de fontes do
+          Google Fonts, descrito no item 6.
         </p>
       </section>
 
       <section>
-        <h2>8. Segurança</h2>
+        <h2>9. Segurança</h2>
         <p>
-          Como o jogo não coleta nem armazena dados pessoais em nenhum servidor, não
-          há dados sensíveis a proteger além do que já roda localmente no seu próprio
-          dispositivo, sob seu controle.
+          Não armazenamos dados pessoais em servidores próprios, então não há dados
+          sensíveis sob nossa responsabilidade além do que já roda localmente no seu
+          próprio dispositivo. Os dados processados pelos serviços de terceiros
+          citados no item 4 seguem as práticas de segurança de cada um deles.
         </p>
       </section>
 
       <section>
-        <h2>9. Alterações nesta política</h2>
+        <h2>10. Alterações nesta política</h2>
         <p>
           Esta política pode ser atualizada caso o jogo passe a oferecer novas
           funcionalidades que envolvam tratamento de dados. A data no topo desta
@@ -242,7 +284,7 @@
       </section>
 
       <section>
-        <h2>10. Contato</h2>
+        <h2>11. Contato</h2>
         <p>
           Dúvidas sobre esta política ou sobre o tratamento de dados do Girl's Night
           podem ser enviadas para:
