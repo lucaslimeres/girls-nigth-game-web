@@ -10,6 +10,10 @@
       "use": "@vercel/static"
     },
     {
+      "src": "support.html",
+      "use": "@vercel/static"
+    },
+    {
       "src": "app-ads.txt",
       "use": "@vercel/static"
     }
@@ -22,6 +26,14 @@
     {
       "src": "/privacidade/?",
       "dest": "/privacy.html"
+    },
+    {
+      "src": "/support(\\.html)?/?",
+      "dest": "/support.html"
+    },
+    {
+      "src": "/suporte/?",
+      "dest": "/support.html"
     },
     {
       "src": "/app-ads\\.txt",
